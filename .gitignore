@@ -1,0 +1,88 @@
+# ======================
+# Node / Bun (Frontend)
+# ======================
+# dependencies
+Frontend/node_modules
+Frontend/.bun
+Frontend/.pnp
+Frontend/.pnp.js
+
+# output
+Frontend/out
+Frontend/dist
+Frontend/*.tgz
+
+# code coverage
+Frontend/coverage
+Frontend/*.lcov
+
+# logs
+Frontend/logs
+Frontend/*.log
+Frontend/report.[0-9]*.json
+
+# dotenv
+Frontend/.env
+Frontend/.env.development.local
+Frontend/.env.test.local
+Frontend/.env.production.local
+Frontend/.env.local
+
+# caches
+Frontend/.eslintcache
+Frontend/.cache
+Frontend/*.tsbuildinfo
+
+# ======================
+# Python / Flask (Backend)
+# ======================
+# Byte-compiled / optimized / DLL files
+Backend/__pycache__/
+Backend/*.py[cod]
+Backend*$py.class
+
+# C extensions
+Backend/*.so
+
+# Distribution / packaging
+Backend/build/
+Backend/dist/
+Backend/*.egg-info/
+Backend/*.egg
+Backend/.eggs/
+
+# Installer logs
+Backend/pip-log.txt
+Backend/pip-delete-this-directory.txt
+
+# Virtual environments
+Backend/.venv/
+Backend/venv/
+Backend/env/
+Backend/.env/
+
+# Pytest cache
+Backend/.pytest_cache/
+
+# mypy cache
+Backend/.mypy_cache/
+
+# coverage
+Backend/coverage
+Backend/htmlcov/
+Backend/.coverage
+
+# ======================
+# General / OS / IDE
+# ======================
+# IntelliJ-based IDEs
+.idea/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# logs
+*.log
